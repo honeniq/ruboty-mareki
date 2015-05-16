@@ -24,7 +24,7 @@ module Ruboty
 
       def akumaeto(message)
         year = Date.new(message.match_data[1].to_i)
-        message.reply("西暦" + year.year.to_s + "年の、悪魔干支は" + \
+        message.reply("西暦" + year.year.to_s + "年の悪魔干支は、" + \
                       year.mareki_eto + "です。")
       end
     end
